@@ -10,7 +10,7 @@ body {
     color:  pink;
     font-size: larger;
     display: grid;
-    margin: 0px;
+    margin:0;
     
 }
 
@@ -20,9 +20,18 @@ div.body {
     height: 535px;
 }
 
-div.header {
+div#top_bar {
     color:  pink;
     border-style:solid;   
+    width: 1260px;
+    margin:0 auto;
+}
+
+div#bottom_bar {
+    color:  pink;
+    border-style:solid;   
+    width: 1260px;
+    margin: auto;
 }
 
 div.header_red {
@@ -36,4 +45,21 @@ footer {
     height: 2.5rem;  
     border-style:solid;  
   }
+
+#logo {
+    width: auto;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+div.top_bar_sections {
+    color: black;
+    float: left;
+    border-left: 1px #cccccc solid;
+    vertical-align: middle;
+    height: 100%;
+}
 
