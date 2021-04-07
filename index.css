@@ -92,6 +92,26 @@ footer {
     
 }
 
+#search {
+    background: #E4E4E4;
+    color:  black;
+    font-weight: bold;
+    font-family: inherit;
+    float: left;
+    border-style: none;
+    height: 26px;
+    position: relative;
+    top: 5px;
+    left: 11px;
+}
+
+#search_img {
+    height: 26px;
+    position: relative;
+    top: 5px;
+    left: 11px;
+}
+
 @media screen and (max-width: 800px) {
     body, header, footer {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
