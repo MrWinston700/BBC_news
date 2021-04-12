@@ -2,7 +2,7 @@ header {
     border-style:solid;
     height: 130px;
     display: grid;
-    grid-template-rows: 1.5fr 3fr 1fr;
+    grid-template-rows: 1.5fr 4fr 1.5fr;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,13 +29,13 @@ div.body {
 }
 
 div#bottom_bar {
-    color:  pink;
-    border-style:solid;   
-    width: 1260px;
-    margin: auto;
+    color:  pink;  
+    background-color:   #b82a2a;
+
+    
 }
 
-div.header_red {
+div#header_red {
     background-color:   #b82a2a;
 }
 
@@ -110,6 +110,20 @@ footer {
     position: relative;
     top: 5px;
     left: 11px;
+}
+
+#inside_red {
+    color: #FEFEFE;
+    width: 1260px;
+    margin:0 auto;
+}
+
+#news {
+    color:  #FEFEFE;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    font-family: Helvetica,Arial,freesans,sans-serif;
 }
 
 @media screen and (max-width: 800px) {
