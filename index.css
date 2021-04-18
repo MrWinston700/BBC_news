@@ -18,8 +18,35 @@ body {
 div.body {
     border-color: salmon;
     border-style:solid;
-    height: 535px;
+    height: 775px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #F2EFEC;
+   
 }
+
+div#top_story {
+    border-style: solid;
+    border-color: blue;
+    color: blue;
+    height: 432px;
+    width: 1260px;
+    margin:0 auto;
+}
+div#main_stories {
+    border-style: solid;
+    height: 200px;
+    width: 1260px;
+    margin:0 auto;
+}
+
+#main_pic {
+    height: 425px;
+    width: 720px;
+    float: right;
+}
+
+
 
 div#top_bar {
     color:  pink;
@@ -86,10 +113,12 @@ div#header_red {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;  
+    border-color: black;
+    position:relative;
+    bottom:0;
+    left:0;
+    right:0;
+    height:30px;
     border-style:solid;  
   }
 
@@ -101,8 +130,6 @@ footer {
     margin-right: 5px;
     float: left;
 }
-
-
 
 #bbc_user {
     width: 20px;
@@ -157,6 +184,8 @@ h1 {
     top: 5px;
     font-family: Helvetica,Arial,freesans,sans-serif;
 }
+
+
 
 
 
