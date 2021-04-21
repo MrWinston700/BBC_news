@@ -1,5 +1,4 @@
 header {
-    border-style:solid;
     height: 130px;
     display: grid;
     grid-template-rows: 1.5fr 4fr 1.5fr;
@@ -8,7 +7,6 @@ header {
 
 
 body {
-    color:  pink;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     margin:0;
@@ -16,21 +14,16 @@ body {
 }
 
 div.body {
-    border-color: salmon;
-    border-style:solid;
     height: 775px;
     padding-top: 12px;
     padding-bottom: 10px;
     background-color: #F2EFEC;
-   
 }
 
 div#top_story {
-    border-style: solid;
     height: 432px;
     width: 1260px;
     margin:0 auto;
-   
 }
 
 #top_title {
@@ -60,22 +53,26 @@ ul {
 }
 
 div#main_stories {
-    
-    border-style: solid;
     height: 200px;
     width: 1260px;
     margin:0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
 }
 
 div.stories {
     border-top: 1px #cccccc solid;
     margin-top: 15px;
-    border-style: solid;
-    border-color: cadetblue;
+    padding-right: 8px;
    
+}
+
+h4 {
+    color: black;
+}
+
+#last_main_story {
+    padding-right: 0px;
 }
 
 .main_story_pic {
@@ -91,8 +88,7 @@ div.stories {
 
 
 div#top_bar {
-    color:  pink;
-    border-style:solid;   
+      
     width: 1260px;
     margin:0 auto;
 }
@@ -115,8 +111,7 @@ div#top_bar {
     
 }
 
-div#bottom_bar {
-    color:  pink;  
+div#bottom_bar { 
     background-color:   #b82a2a;
    
 }
