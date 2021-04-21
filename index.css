@@ -53,6 +53,7 @@ ul {
 }
 
 div#main_stories {
+    border-top: 1px #cccccc solid;
     height: 200px;
     width: 1260px;
     margin:0 auto;
@@ -61,7 +62,7 @@ div#main_stories {
 }
 
 div.stories {
-    border-top: 1px #cccccc solid;
+    
     margin-top: 15px;
     padding-right: 8px;
    
