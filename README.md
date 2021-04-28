@@ -1,5 +1,5 @@
 # BBC_news
 
-This is just a pure html and css static clone page
+This is just a html and css static clone page. No javascript functionalities.
 
 ![](images/screenshot.png)
